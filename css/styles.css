@@ -374,25 +374,23 @@ ul {
   border-radius: 0px 0px 4px 4px;
   overflow: hidden;
   margin-right: 30px;
-  padding-bottom: 24px;
   width: calc((100%-90px) / 4);
-  overflow: hidden;
   background-color: var(--primary-white-color);
 }
 .team-list-item:last-child {
   margin-right: 0;
 }
-.team-list-item > img {
-  margin-bottom: 30px;
+.team-description {
+  display: inline-block;
+  text-align: center;
+  padding: 30px 32px 24px 32px;
 }
-
 .team-list-title {
   margin-bottom: 10px;
 
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  text-align: center;
   letter-spacing: 0.03em;
 
   color: var(--secondary-text-color);
@@ -403,7 +401,6 @@ ul {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
-  text-align: center;
   letter-spacing: 0.03em;
 
   color: var(--primary-text-color);
@@ -411,10 +408,6 @@ ul {
   background-color: var(--primary-white-color);
 }
 
-.network-our {
-  display: flex;
-  justify-content: center;
-}
 .network-title:not(:last-child) {
   margin-right: 10px;
 }
