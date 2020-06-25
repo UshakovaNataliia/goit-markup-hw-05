@@ -166,13 +166,17 @@ ul {
   vertical-align: middle;
 }
 
-.site-nav-title:not(:last-child),
-.contacts-nav li:not(:last-child) {
+.site-nav-title:not(:last-child) {
   margin-right: 25px;
 }
 .site-nav-title {
+  margin-left: 25px;
   position: relative;
 }
+.contacts-nav > li:not(:last-child) {
+  margin-right: 30px;
+}
+
 .current {
   color: var(--accent-color);
 }
