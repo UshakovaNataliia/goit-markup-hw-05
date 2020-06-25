@@ -689,7 +689,7 @@ button:active {
   text-decoration: none;
 }
 .card-content {
-  padding: 20px 24px 20px 24px;
+  padding: 20px 24px;
   border: 1px solid #eeeeee;
   border-top: 0;
 }
