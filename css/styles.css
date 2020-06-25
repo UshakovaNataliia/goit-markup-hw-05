@@ -157,24 +157,12 @@ ul {
   color: var(--accent-color);
 }
 
-.contacts-nav a {
-  color: var(--primary-text-color);
-}
-.contact-icon {
-  fill: currentColor;
-  margin-right: 10px;
-  vertical-align: middle;
-}
-
 .site-nav-title:not(:last-child) {
   margin-right: 25px;
 }
 .site-nav-title {
   margin-left: 25px;
   position: relative;
-}
-.contacts-nav > li:not(:last-child) {
-  margin-right: 30px;
 }
 
 .current {
@@ -191,6 +179,17 @@ ul {
   left: 0;
 
   background-color: var(--accent-color);
+}
+.contacts-nav a {
+  color: var(--primary-text-color);
+}
+.contacts-nav > li:not(:last-child) {
+  margin-right: 30px;
+}
+.contact-icon {
+  fill: currentColor;
+  margin-right: 10px;
+  vertical-align: middle;
 }
 
 /* Hero */
