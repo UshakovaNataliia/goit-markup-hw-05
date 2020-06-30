@@ -118,10 +118,11 @@ ul {
 }
 
 /* Nav*/
-
+.header {
+  border-bottom: 1px solid #ececec;
+}
 .header > .container {
   display: flex;
-  border-bottom: 1px solid #ececec;
 }
 .nav > a {
   margin-right: 60px;
@@ -674,7 +675,7 @@ button:active {
 
 .portfolio-link {
   display: block;
-
+  overflow: hidden;
   text-decoration: none;
 }
 .card-content {
@@ -712,7 +713,6 @@ button:active {
   bottom: 0;
   left: 0;
   padding: 63px 24px;
-  overflow: hidden;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transform: translateY(100%);
 
